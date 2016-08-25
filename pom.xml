@@ -15,20 +15,26 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.googlecode</groupId>
+			<groupId>com.github.briandilley.jsonrpc4j</groupId>
 			<artifactId>jsonrpc4j</artifactId>
-			<version>0.28</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>jackson-core</artifactId>
-					<groupId>com.fasterxml.jackson.core</groupId>
-				</exclusion>
-				<exclusion>
-					<artifactId>jackson-databind</artifactId>
-					<groupId>com.fasterxml.jackson.core</groupId>
-				</exclusion>
-			</exclusions>
+			<version>1.4.6</version>
 		</dependency>
+
+		<!--<dependency>-->
+			<!--<groupId>com.googlecode</groupId>-->
+			<!--<artifactId>jsonrpc4j</artifactId>-->
+			<!--<version>0.28</version>-->
+			<!--<exclusions>-->
+				<!--<exclusion>-->
+					<!--<artifactId>jackson-core</artifactId>-->
+					<!--<groupId>com.fasterxml.jackson.core</groupId>-->
+				<!--</exclusion>-->
+				<!--<exclusion>-->
+					<!--<artifactId>jackson-databind</artifactId>-->
+					<!--<groupId>com.fasterxml.jackson.core</groupId>-->
+				<!--</exclusion>-->
+			<!--</exclusions>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -51,14 +57,14 @@
 		</dependency>
 	</dependencies>
 
-	<repositories>
+	<!--<repositories>
 		<repository>
 			<id>jsonrpc4j-webdav-maven-repo</id>
 			<name>jsonrpc4j maven repository</name>
 			<url>http://jsonrpc4j.googlecode.com/svn/maven/repo/</url>
 			<layout>default</layout>
 		</repository>
-	</repositories>
+	</repositories>-->
 
 	<build>
 		<plugins>
@@ -81,11 +87,11 @@
 	    </extensions>
 	</build>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>37coins.myMavenRepo.write</id>
             <url>http://repo.mymavenrepo.com/8HyTMtil2kKL4arfqWnf/</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>
